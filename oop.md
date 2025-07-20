@@ -185,6 +185,11 @@ class APIClient {
   }
 }
 ```
+Modern Way (ES2020+):
+Use the hash symbol: #balance
+
+Truly private! Only accessible inside the class.
+If you try obj.#balance outside, you’ll get an error.
 
 **Technical Use Case:**
 Hiding sensitive data, enforcing encapsulation, or preventing external code from modifying internal logic.
